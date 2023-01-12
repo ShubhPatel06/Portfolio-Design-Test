@@ -508,16 +508,18 @@
 
   .btn-box {
     flex-direction: column;
+    align-items: center;
   }
 
   .btn-box .btn {
     padding: 1rem;
     font-size: 1rem;
+    width: 80%;
   }
 
-  .btn-box .hire-me-btn {
+  /* .btn-box .hire-me-btn {
     width: 100%;
-  }
+  } */
 
   .container .info-box .more-info-box {
     gap: 1rem;
