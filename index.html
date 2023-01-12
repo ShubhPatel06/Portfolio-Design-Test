@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="script.js"></script>
+
+    <title>Personal Portfolio Landing Page</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <p class="name">Umayer.</p>
+      </div>
+      <nav class="navbar">
+        <ul class="nav-items">
+          <li><a href="#hero-section" class="links active">Home</a></li>
+          <li><a href="#about-section" class="links">About</a></li>
+          <li><a href="#portfolio-section" class="links">Portfolio</a></li>
+          <li><a href="#testimonials-section" class="links">Testimonial</a></li>
+          <li><a href="#blog-section" class="links">Blog</a></li>
+          <li><a href="#services-section" class="links">Services</a></li>
+          <li><a href="#footer" class="links btn">Contact Me</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero-section" id="hero-section">
+        <div class="container">
+          <div class="info-box">
+            <h1 class="title">Hey! I Am Abu Umayer</h1>
+            <p class="about">
+              UI/UX Designer & Digital Creative Director working in design field
+              for 4 years now specializing in UI Design.
+            </p>
+            <div class="btn-box">
+              <button class="btn hire-me-btn">Hire Me</button>
+              <button class="btn know-btn">Know More</button>
+            </div>
+            <div class="more-info-box">
+              <ion-icon name="code-slash-outline" class="icon"></ion-icon>
+              <p class="description">
+                Product Designer and Developer specialized in UI/UX
+              </p>
+            </div>
+            <div class="partners">
+              <img src="images/envato.svg" alt="Envato" />
+              <img src="images/behance-4.svg" alt="Envato" />
+              <img src="images/fiverr-2.svg" alt="Envato" />
+              <img src="images/upwork.svg" alt="Envato" />
+            </div>
+          </div>
+          <div class="img-box">
+            <img src="images/user-img.jpg" alt="Abu Umayer" />
+          </div>
+        </div>
+      </section>
+      <section class="clients-section" id="client-section">
+        <div class="container">
+          <h2 class="section-title">My clients</h2>
+          <div class="img-container">
+            <img src="images/google-2015.svg" alt="Google logo" />
+            <img src="images/slack-2.svg" alt="Slack logo" />
+            <img src="images/tokopedia.svg" alt="tokopedia logo" />
+            <img src="images/monday.svg" alt="Monday logo" />
+            <img src="images/rio-tinto-3.svg" alt="Rio tinto logo" />
+          </div>
+        </div>
+      </section>
+      <section class="about-section" id="about-section">
+        <div class="container">
+          <div class="about-img-box">
+            <img src="images/user-img-2.jpg" alt="ABu Umayer" />
+          </div>
+          <div class="about-info">
+            <h2 class="about-title">About Me</h2>
+            <p class="learn">Learn about me & buy product yourself</p>
+            <p class="info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              iusto nisi porro ipsam accusantium, corporis cumque ducimus
+              pariatur maiores minima praesentium!
+            </p>
+            <div class="btn-box">
+              <button class="btn know-btn">Know More</button>
+              <button class="btn resume-btn">My Resume</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio-section" id="portfolio-section">
+        <div class="container">
+          <h2 class="section-title">My Portfolio</h2>
+          <p class="works">My latest works</p>
+          <div class="works-container">
+            <p class="work">Motion Graphic</p>
+            <p class="work">Web Design</p>
+            <p class="work">Web Development</p>
+            <p class="work">Mobile App</p>
+            <p class="work">Graphic Design</p>
+          </div>
+          <div class="images-container">
+            <img src="images/img1.jpg" class="img1" alt="" />
+            <img src="images/img2.jpg" class="img2" alt="" />
+            <img src="images/img3.jpg" class="img3" alt="" />
+            <img src="images/img4.jpg" class="img4" alt="" />
+            <img src="images/img5.jpg" class="img5" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="services-section" id="services-section">
+        <div class="container">
+          <h2 class="section-title">My Best Services</h2>
+          <p class="services-provided">What services i provide</p>
+          <div class="cards-container">
+            <div class="card card1">
+              <div class="icons">
+                <ion-icon class="icon" name="create-outline"></ion-icon>
+              </div>
+              <h3 class="card-title">User Interface Design</h3>
+              <p class="description">
+                Lorem Ipsum is simply dummy text the print and typesetting
+                industry. Lorem Ipsum been standard dummy text pecimen book.
+              </p>
+              <div class="explore-box">
+                <a href="#" class="explore-text">Explore More</a>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div>
+            </div>
+            <div class="card card2 colored-bg">
+              <div class="icons">
+                <ion-icon class="icon" name="people-outline"></ion-icon>
+              </div>
+              <h3 class="card-title-white">User Experience Design</h3>
+              <p class="description-info">
+                Lorem Ipsum is simply dummy text the print and typesetting
+                industry. Lorem Ipsum been standard dummy text pecimen book.
+              </p>
+              <div class="explore-box">
+                <a href="#" class="explore-text">Explore More</a>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div>
+            </div>
+            <div class="card card3">
+              <div class="icons">
+                <ion-icon class="icon" name="color-palette-outline"></ion-icon>
+              </div>
+              <h3 class="card-title">Graphic Design</h3>
+              <p class="description">
+                Lorem Ipsum is simply dummy text the print and typesetting
+                industry. Lorem Ipsum been standard dummy text pecimen book.
+              </p>
+              <div class="explore-box">
+                <a href="#" class="explore-text">Explore More</a>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div>
+            </div>
+            <div class="card card4">
+              <div class="icons">
+                <ion-icon class="icon" name="phone-portrait-outline"></ion-icon>
+              </div>
+              <h3 class="card-title">Mobile App Design</h3>
+              <p class="description">
+                Lorem Ipsum is simply dummy text the print and typesetting
+                industry. Lorem Ipsum been standard dummy text pecimen book.
+              </p>
+              <div class="explore-box">
+                <a href="#" class="explore-text">Explore More</a>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div>
+            </div>
+            <div class="card card5">
+              <div class="icons">
+                <ion-icon class="icon" name="play-forward-outline"></ion-icon>
+              </div>
+              <h3 class="card-title">Motion Graphic Design</h3>
+              <p class="description">
+                Lorem Ipsum is simply dummy text the print and typesetting
+                industry. Lorem Ipsum been standard dummy text pecimen book.
+              </p>
+              <div class="explore-box">
+                <a href="#" class="explore-text">Explore More</a>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div>
+            </div>
+
+            <div class="card card6">
+              <div class="icons">
+                <ion-icon class="icon" name="code-slash-outline"></ion-icon>
+              </div>
+              <h3 class="card-title">Web Development Design</h3>
+              <p class="description">
+                Lorem Ipsum is simply dummy text the print and typesetting
+                industry. Lorem Ipsum been standard dummy text pecimen book.
+              </p>
+              <div class="explore-box">
+                <a href="#" class="explore-text">Explore More</a>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="details-section" id="details-section">
+        <div class="container">
+          <div class="clients">
+            <p class="number">550+</p>
+            <p class="detail">Happy Client</p>
+          </div>
+          <div class="clients">
+            <p class="number">550+</p>
+            <p class="detail">Our All Projects</p>
+          </div>
+          <div class="clients">
+            <p class="number">150+</p>
+            <p class="detail">Running Work</p>
+          </div>
+          <div class="clients">
+            <p class="number">150+</p>
+            <p class="detail">Our Complete</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-section" id="blog-section">
+        <div class="container">
+          <h2 class="section-title">Blog and News</h2>
+          <p class="latest-info">Latest from blog</p>
+
+          <div class="blog-cards">
+            <div class="card">
+              <img
+                src="images/card1.jpg"
+                alt="UI/UX Designs"
+                class="card-img"
+              />
+              <div class="content-box">
+                <div class="info">
+                  <div class="develope flex">
+                    <ion-icon class="icon" name="bookmark-outline"></ion-icon>
+                    <p class="text">Development</p>
+                  </div>
+                  <div class="date flex">
+                    <ion-icon class="icon" name="calendar-outline"></ion-icon>
+                    <p class="text">15 Oct, 2024</p>
+                  </div>
+                </div>
+                <h4 class="card-title">
+                  Medium Based Blog UI/UX Together Insightful
+                </h4>
+                <p class="description">
+                  While taking unlimited armorist of client work. Brand New Blog
+                  is well known.
+                </p>
+                <a href="#" class="read-btn">Read More >></a>
+              </div>
+            </div>
+
+            <div class="card-borderless card">
+              <img src="images/card2.jpg" alt="Code" class="card-img" />
+              <div class="content-box">
+                <div class="info">
+                  <div class="develope flex">
+                    <ion-icon
+                      class="icon purple"
+                      name="bookmark-outline"
+                    ></ion-icon>
+                    <p class="text">Development</p>
+                  </div>
+                  <div class="date flex">
+                    <ion-icon
+                      class="icon purple"
+                      name="calendar-outline"
+                    ></ion-icon>
+                    <p class="text">15 Oct, 2024</p>
+                  </div>
+                </div>
+                <h4 class="card-title">
+                  Medium Based Blog For Web Development
+                </h4>
+                <p class="description">
+                  While taking unlimited armorist of client work. Brand New Blog
+                  is well known.
+                </p>
+                <a href="#" class="read-btn purple hover-black">Read More >></a>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="images/card3.jpg"
+                alt="Mobile App Design"
+                class="card-img"
+              />
+              <div class="content-box">
+                <div class="info">
+                  <div class="develope flex">
+                    <ion-icon class="icon" name="bookmark-outline"></ion-icon>
+                    <p class="text">Development</p>
+                  </div>
+                  <div class="date flex">
+                    <ion-icon class="icon" name="calendar-outline"></ion-icon>
+                    <p class="text">15 Oct, 2024</p>
+                  </div>
+                </div>
+                <h4 class="card-title">
+                  Medium Based Blog For Mobile App Design
+                </h4>
+                <p class="description">
+                  While taking unlimited armorist of client work. Brand New Blog
+                  is well known.
+                </p>
+                <a href="#" class="read-btn">Read More >></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials-section" id="testimonials-section">
+        <div class="container">
+          <h2 class="section-title">Testimonials</h2>
+          <p class="message">What our happy clients say</p>
+
+          <div class="testimonial-cards">
+            <div class="card">
+              <div class="stars">
+                <ion-icon class="star" name="star"></ion-icon>
+                <ion-icon class="star" name="star"></ion-icon>
+                <ion-icon class="star" name="star"></ion-icon>
+                <ion-icon class="star" name="star"></ion-icon>
+                <ion-icon class="star" name="star"></ion-icon>
+              </div>
+              <p class="testimonial">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                provident quae! Sit est dolorem quidem doloremque.
+              </p>
+              <div class="holder">
+                <img
+                  src="images/author1.jpg"
+                  alt="Frahan Rio"
+                  class="author-img"
+                />
+                <div class="author-details">
+                  <p class="author">Farhan Rio</p>
+                  <p class="occupation">Author of UIblast</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card-borderless">
+              <div class="stars">
+                <ion-icon class="star" name="star"></ion-icon>
+                <ion-icon class="star" name="star"></ion-icon>
+                <ion-icon class="star" name="star"></ion-icon>
+                <ion-icon class="star" name="star"></ion-icon>
+                <ion-icon class="star" name="star"></ion-icon>
+              </div>
+              <p class="testimonial">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                provident quae! Sit est dolorem quidem doloremque.
+              </p>
+              <div class="holder">
+                <img
+                  src="images/author2.jpg"
+                  alt="Elizabeth Nancy "
+                  class="author-img"
+                />
+                <div class="author-details">
+                  <p class="author">Elizabeth Nancy</p>
+                  <p class="occupation">Author of Entato</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="stars">
+                <ion-icon class="star" name="star"></ion-icon>
+                <ion-icon class="star" name="star"></ion-icon>
+                <ion-icon class="star" name="star"></ion-icon>
+                <ion-icon class="star" name="star"></ion-icon>
+                <ion-icon class="star" name="star"></ion-icon>
+              </div>
+              <p class="testimonial">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                provident quae! Sit est dolorem quidem doloremque.
+              </p>
+              <div class="holder">
+                <img
+                  src="images/author3.jpg"
+                  alt="Jenny Wilson"
+                  class="author-img"
+                />
+                <div class="author-details">
+                  <p class="author">Jenny Wilson</p>
+                  <p class="occupation">Director of Twitter</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btns">
+            <button class="blank-btns"></button>
+            <button class="blank-btns btn-purple"></button>
+            <button class="blank-btns"></button>
+          </div>
+        </div>
+      </section>
+      <section class="talk-section">
+        <div class="container">
+          <p class="emoji">🥳</p>
+          <p class="question">Have a project? Let's talk</p>
+          <p class="information">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus maiores corporis sed ipsam nostrum!
+          </p>
+          <button class="hire-btn">Hire Me Now</button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="footer-container">
+        <div class="logo-col">
+          <div class="logo-box">
+            <a href="#" class="logo-link">Umayer.</a>
+          </div>
+
+          <p class="about">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Perferendis quam iusto doloribus distinctio, a veritatis.
+          </p>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-linkedin"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav-col">
+          <h5 class="footer-heading">About</h5>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About Us</a></li>
+            <li><a class="footer-link" href="#">Testimonials</a></li>
+            <li><a class="footer-link" href="#">News</a></li>
+            <li><a class="footer-link" href="#">Apps</a></li>
+          </ul>
+        </div>
+
+        <div class="nav-col">
+          <h5 class="footer-heading">Services</h5>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Graphics Design?</a></li>
+            <li><a class="footer-link" href="#">UI/UZ Design</a></li>
+            <li><a class="footer-link" href="#">Web Development</a></li>
+            <li><a class="footer-link" href="#">Mobile App</a></li>
+          </ul>
+        </div>
+
+        <div class="nav-col">
+          <h5 class="footer-heading">Resources</h5>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Account</a></li>
+            <li><a class="footer-link" href="#">Support Center</a></li>
+            <li><a class="footer-link" href="#">Feedback</a></li>
+            <li><a class="footer-link" href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="contact-col">
+          <h5 class="footer-heading">Get in Touch</h5>
+          <p class="message">
+            Question or Feedback? we'd love to hear from you
+          </p>
+          <div class="email-link-box">
+            <a href="#" class="email-link">Email Address</a>
+            <ion-icon class="plane-icon" name="paper-plane-outline"></ion-icon>
+          </div>
+        </div>
+      </div>
+      <hr class="line" />
+      <p class="copyright">@uidesigner umayer 2023. All Copyrights reserved.</p>
+    </footer>
+  </body>
+</html>
